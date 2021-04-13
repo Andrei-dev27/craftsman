@@ -1,0 +1,51 @@
+.icon::before{
+	width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-size: contain;
+	background-repeat: no-repeat;
+	content: ' ';
+}
+.icon.home::before{
+    background-image: url(../img/home-page.png);
+}
+.icon.home:hover::before{
+    background-image: url(../img/home.png);
+}
+.icon.about_us::before{
+    background-image: url(../img/о\ нас.png);
+}
+.icon.about_us:hover::before{
+    background-image: url(../img/icons8-о-нас-64.png);
+}
+.icon.gallery::before{
+    background-image: url(../img/галерея-1.png);
+}
+.icon.gallery:hover::before{
+    background-image: url(../img/галерея-2.png);
+}
+.icon.table::before{
+    background-image: url(../img/icons8-таблица-48.png);
+}
+.icon.table:hover::before{
+    background-image: url(../img/таблица-48.png);
+}
+.icon.landing::before{
+    background-image: url(../img/веб-дизайн.png);
+}
+.icon.landing:hover::before{
+    background-image: url(../img/веб-дизайн\ 2.png);
+}
+.icon.up::before{
+    background-image: url(../img/icons8-up-48.png);
+}
+.icon.down::before{
+    background-image: url(../img/icons8-down-48.png);
+}
+.buttons .button:hover{
+    color: black;
+    background:orange;
+}
+.left-image:hover span{
+	display: inline;
+}

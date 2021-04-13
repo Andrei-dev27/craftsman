@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Indie Flower;
+    src: url(font/IndieFlower-Regular.ttf);
+  }
+a{
+	text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.page{
+    font-family: Indie Flower;
+    font-size: 50px;
+    background: aqua;
+    display: flex;
+    align-items: center;
+      /* background-size: cover; */
+}
+.main-info{
+    background-image: url(../image_dino/заставка2.jpg);
+    height: 850px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-size: cover;
+}
+.page.count-info{
+    background-image: url(../image_dino/заставка3.jpg);
+    background-size: auto;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+}
+.margin2{
+    margin-bottom: 70px;
+}
+.page span{
+    background: rgba(131, 116, 97, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    color:burlywood;
+}
+.page .color{
+    color: #ffc107c7;
+    font-weight: bold;
+}
+.page .color:hover{
+    background: black;
+}
+.page a{
+    color: burlywood;
+    background: rgba(131, 116, 97, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+.additional-info2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;;
+}
+.additional-info{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.main-info .none{
+    background: none;
+}
+.page.count-info .margin{
+    margin-top: 36px;
+    color: #FFC107;
+    border-radius: 20px 0 0 20px;
+}
+.page.count-info .margin2{
+    margin-top: 36px;
+    color: black;
+    border-radius: 0 20px 20px 0;
+}
+.pin{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.buttons{
+    max-width: 50px;
+    background: white;
+    border-radius: 10px;
+}
